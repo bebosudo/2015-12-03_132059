@@ -1,0 +1,61 @@
+[editor]
+line_wrapping=false
+line_break_column=80
+auto_continue_multiline=true
+
+[file_prefs]
+final_new_line=false
+ensure_convert_new_lines=true
+strip_trailing_spaces=true
+replace_tabs=false
+
+[indentation]
+indent_width=4
+indent_type=1
+indent_hard_tab_width=8
+detect_indent=false
+detect_indent_width=false
+indent_mode=2
+
+[project]
+name=2015-12-03_132059
+base_path=/home/bebo_sudo/Documenti/CLOUDs/MEGA/uni/2015-16/oggetti/_LEZ/2015-12-03_132059
+description=
+file_patterns=
+
+[long line marker]
+long_line_behaviour=1
+long_line_column=80
+
+[files]
+current_page=2
+FILE_NAME_0=1482;C++;0;EUTF-8;1;1;0;%2Fhome%2Fbebo_sudo%2FDocumenti%2FCLOUDs%2FMEGA%2Funi%2F2015-16%2Foggetti%2Fesercizi_a_casa%2Fscuola_di_lingue_es.prof%2Fmain.cpp;0;4
+FILE_NAME_1=505;C++;0;ENone;1;1;0;%2Fhome%2Fbebo_sudo%2FDocumenti%2FCLOUDs%2FMEGA%2Funi%2F2015-16%2Foggetti%2Fesercizi_a_casa%2Fscuola_di_lingue_es.prof%2Fcorso.h;0;4
+FILE_NAME_2=483;C++;0;ENone;1;1;0;%2Fhome%2Fbebo_sudo%2FDocumenti%2FCLOUDs%2FMEGA%2Funi%2F2015-16%2Foggetti%2Fesercizi_a_casa%2Fscuola_di_lingue_es.prof%2Fcorso.cpp;0;4
+
+[VTE]
+last_dir=/home/bebo_sudo/Documenti/CLOUDs/MEGA/uni/2015-16/oggetti/_LEZ
+
+[build-menu]
+CFT_00_LB=_Compile
+CFT_00_CM=gcc -Wall -c *.cpp
+CFT_00_WD=
+filetypes=C;C++;
+C++FT_00_LB=_Compile
+C++FT_00_CM=g++ -std=c++98 -Wall *.cpp -o main
+C++FT_00_WD=
+EX_01_LB=compile-build-run
+EX_01_CM=
+EX_01_WD=
+EX_00_LB=_Execute
+EX_00_CM=./main #"./%e"
+EX_00_WD=
+NF_02_LB=Compila _oggetto
+NF_02_CM=make %e.o
+NF_02_WD=
+NF_03_LB=
+NF_03_CM=
+NF_03_WD=
+C++FT_01_LB=_Build
+C++FT_01_CM=g++ -std=c++98 -Wall *.cpp -o main && ./main;
+C++FT_01_WD=
